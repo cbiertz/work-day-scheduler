@@ -1,4 +1,4 @@
-$(document.ready(function() {
+$(document).ready(function() {
     $(".saveBtn").on("click", function (){
         var value = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
@@ -6,6 +6,9 @@ $(document.ready(function() {
         localStorage.setItem(time, value);
     });
 
-    
-}))
+    $("#currentDay").text(moment().format("dddd, MMMM Do"));    
+});
+
+
+
 
