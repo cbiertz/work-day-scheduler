@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: #fcfffa;
 }
 
 textarea{
@@ -14,11 +15,23 @@ textarea{
 }
 
 .jumbotron {
+  background-image: url(./lighthouse.jpg);
+  background-size: 200%;
+  background-position-y: 79%;
+  background-position-x: 100%;
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: #1D3557;
   border-radius: 0;
   border-bottom: 10px solid #1D3557;
+}
+
+.display-3 {
+  font-weight: 900;
+}
+
+#currentDay {
+  font-weight: 900;
 }
 
 .description{
@@ -33,27 +46,26 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid #1D3557;;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color:  #fcfffa;
   color: #1D3557;
-  border-top: 1px dashed #1D3557;
-}
+  }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #F1FAEE;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #E63946;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #A8DADC;
   color: white;
 }
 
