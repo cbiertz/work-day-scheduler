@@ -9,10 +9,10 @@ Open in your Browser to view the calendar. Click in the time block to add an eve
 ## Built With
 * HTML
 * CSS
-*JavaScript
+* JavaScript
 
 ## Website
-https://cbiertz.github.io/cbiertz/
+https://cbiertz.github.io/work-day-scheduler/
 
 ## Screenshots
 ![Example screenshot](./preview.png)
